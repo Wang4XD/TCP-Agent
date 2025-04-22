@@ -4,9 +4,9 @@ import socket
 def tcp_client():
     try:
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        client_socket.connect(('127.0.0.1', 7000))
+        client_socket.connect(('YOUR_ADDRESS', YOUR_PORT))
 
-        message = "start ACQ"
+        message = "start ACQ"  # Replace it with your tcp command
         client_socket.sendall(message.encode('utf-8'))
 
         data = client_socket.recv(1024)

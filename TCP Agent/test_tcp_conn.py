@@ -1,6 +1,6 @@
 import socket
 
-
+# Test that the TCP connection is open
 def tcp_client():
     try:
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

@@ -17,14 +17,14 @@ import binascii
 
 # 设置页面配置
 st.set_page_config(
-    page_title="TCP Agent - TCP通信控制系统",
+    page_title="TCP Agent - TCP通信控制Agent",
     page_icon="🤖",
     layout="wide",
 )
 
 # 系统常量
-TCP_HOST = '127.0.0.1'
-TCP_PORT = 7000
+TCP_HOST = 'YOUR_ADDRESS'
+TCP_PORT = YOUR_PORT
 MAX_CHANNELS = 128
 THRESHOLD_RANGE = (-100, 100)
 

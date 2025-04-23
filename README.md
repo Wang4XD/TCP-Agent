@@ -16,4 +16,4 @@ Shanghai Stairmed Technology Co., Ltd
 
 2. Test for connectivity to the application ``` python test_tcp_conn.py ```
 
-3. Running Agent ``` python tcp_agent.py ```
+3. Running Agent ``` streamlit run tcp_agent.py ```
